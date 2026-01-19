@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>My First Yew App</title>
+        <link rel="stylesheet" href="/prevyew_/style-4dc09d76f5b63ae9.css" integrity="sha384-6R7JPPDxG5TeYxfAD1rnapwA5q/94e07ywRYANXOkgnNkuwPsXCvek8IddBc25Su"/>
+        
+        <link rel="icon" href="/prevyew_/favicon.svg" />
+        
+        <link rel="manifest" href="/prevyew_/manifest.json" />
+        <meta name="theme-color" content="#000000" />
+        
+        <link rel="apple-touch-icon" href="/prevyew_/icon-192x192.png" />
+    <link rel="modulepreload" href="/prevyew_/yew-app-82e9a1e72f53a294.js" crossorigin="anonymous" integrity="sha384-Ej+TaP3cRnPXBmWYqJLpkmerrmEi/0fXUuz/VAGcKJY4mFxp/ef9cowZ4uKtJD9t"><link rel="preload" href="/prevyew_/yew-app-82e9a1e72f53a294_bg.wasm" crossorigin="anonymous" integrity="sha384-N/goVMzeg28xOKwQQe8EmxPRHwHWD6QsQL+F1pVe5dLHC33yQSmGP5UeZcFptn9q" as="fetch" type="application/wasm"></head>
+    <body>
+<script type="module">
+import init, * as bindings from '/prevyew_/yew-app-82e9a1e72f53a294.js';
+const wasm = await init({ module_or_path: '/prevyew_/yew-app-82e9a1e72f53a294_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>
